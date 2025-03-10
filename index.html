@@ -1,137 +1,104 @@
-aboutme670710744 - Achitapol Wanjapo.html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .navbar {
-            background-color: #0056b3;
-        }
-        .navbar-nav .nav-link {
-            color: white !important;
-        }
-        .navbar-nav .nav-link:hover {
-            color: #ff5733 !important;
-        }
-        .dropdown-menu {
-            background-color: #0056b3;
-        }
-        .dropdown-menu .dropdown-item:hover {
-            background-color: #ff5733;
-            color: white;
-        }
-        .footer {
-            background-color: #0056b3;
-            color: white;
-        }
-        .img-fluid {
-            border: 5px solid #ff5733;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<div class="p-5 bg-primary text-white text-center">
-    <h1>Let me IntroduceMySelf
-    </h1>
-  </div>
-<body>
+<body class="container mt-5">
 
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">About Me</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Time Table</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">My Place</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            My Friends
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#">670710209 ฟ้าใส คำพาลักษณ์</a></li>
-                            <li><a class="dropdown-item" href="#">670710328 พิมลรัตน์ โป่วตระกูล</a></li>
-                            <li><a class="dropdown-item" href="#">670710717 ณภพ วงษ์เสวก</a></li>
-                            <li><a class="dropdown-item" href="#">670710744 อชิตพล หวานจะโปะ</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+    <h2 class="mb-4">ลงทะเบียน</h2>
+    
+    <!-- 📌 ใส่ URL ของอาจารย์ตรง action -->
+    <form class="row g-3 needs-validation" action="**URLของอาจารย์**" method="POST" novalidate>
+        
+        <div class="col-md-6">
+            <label for="thaiFirstName" class="form-label">ชื่อ (ภาษาไทย)</label>
+            <input type="text" class="form-control" id="thaiFirstName" name="thaiFirstName" required>
+            <div class="invalid-feedback">กรุณากรอกชื่อภาษาไทย</div>
         </div>
-    </nav>
 
-    <section class="py-5">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-4 text-center">
-                    <img src="">
-                </div>
-                <div class="container mt-5">
-                    <div class="row">
-                      <div class="col-sm-4">
-                        <h2>About Me</h2>
-                        <h5>Photo of me:</h5>
-                        <div class="fakeimg">Fake Image</div>
-                        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                        <h3 class="mt-4">Some Links</h3>
-                        <p>Lorem ipsum dolor sit ame.</p>
-                        <ul class="nav nav-pills flex-column">
-                          <li class="nav-item">
-                            <a class="nav-link active" href="#">Active</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                          </li>
-                        </ul>
-                        <hr class="d-sm-none">
-                      </div>
-                      <div class="col-sm-8">
-                        <h2>TITLE HEADING</h2>
-                        <h5>Title description, Dec 7, 2020</h5>
-                        <div class="fakeimg">Fake Image</div>
-                        <p>Some text..</p>
-                        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                  
-                        <h2 class="mt-5">TITLE HEADING</h2>
-                        <h5>Title description, Sep 2, 2020</h5>
-                        <div class="fakeimg">Fake Image</div>
-                        <p>Some text..</p>
-                        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                <div class="col-md-8">
-                    <h1>Hello! My name is Achitapol Wanjapo</h1>
-                    <p>I am a first-year Information Technology student who is interested in programming and technology.</p>
-                    <p>In my free time, I enjoy exploring new tech trends and playing Pokémon games. My favorite character is Iron Man, and I admire Mikasa from Attack on Titan.</p>
-                    <p>I am currently studying at university and learning various skills to become a programmer in the future. I am also working on improving my English communication skills through my SU202 class.</p>
-                </div>
-            </div>
+        <div class="col-md-6">
+            <label for="thaiLastName" class="form-label">นามสกุล (ภาษาไทย)</label>
+            <input type="text" class="form-control" id="thaiLastName" name="thaiLastName" required>
+            <div class="invalid-feedback">กรุณากรอกนามสกุลภาษาไทย</div>
         </div>
-    </section>
 
-    <footer class="footer text-center py-3">
-        <p class="mb-0">© 2025 Achitapol Wanjapo</p>
-    </footer>
+        <div class="col-md-6">
+            <label for="engFirstName" class="form-label">ชื่อ (ภาษาอังกฤษ)</label>
+            <input type="text" class="form-control" id="engFirstName" name="engFirstName" required>
+            <div class="invalid-feedback">กรุณากรอกชื่อภาษาอังกฤษ</div>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="col-md-6">
+            <label for="engLastName" class="form-label">นามสกุล (ภาษาอังกฤษ)</label>
+            <input type="text" class="form-control" id="engLastName" name="engLastName" required>
+            <div class="invalid-feedback">กรุณากรอกนามสกุลภาษาอังกฤษ</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="nickname" class="form-label">ชื่อเล่น</label>
+            <input type="text" class="form-control" id="nickname" name="nickname" required>
+            <div class="invalid-feedback">กรุณากรอกชื่อเล่น</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="studentID" class="form-label">รหัสนักศึกษา</label>
+            <input type="text" class="form-control" id="studentID" name="studentID" pattern="\d{10}" required>
+            <div class="invalid-feedback">กรุณากรอกรหัสนักศึกษา 10 หลัก</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <div class="invalid-feedback">กรุณากรอกอีเมลที่ถูกต้อง</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="phone" class="form-label">เบอร์มือถือ</label>
+            <input type="tel" class="form-control" id="phone" name="phone" pattern="\d{10}" required>
+            <div class="invalid-feedback">กรุณากรอกเบอร์มือถือ 10 หลัก</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="dob" class="form-label">วันเดือนปีเกิด</label>
+            <input type="date" class="form-control" id="dob" name="dob" required>
+            <div class="invalid-feedback">กรุณาเลือกวันเกิด</div>
+        </div>
+
+        <div class="col-md-6">
+            <label for="hometown" class="form-label">ภูมิลำเนา</label>
+            <input type="text" class="form-control" id="hometown" name="hometown" required>
+            <div class="invalid-feedback">กรุณากรอกภูมิลำเนา</div>
+        </div>
+
+        <div class="col-md-12">
+            <label for="aboutMe" class="form-label">เขียนถึงตัวเอง</label>
+            <textarea class="form-control" id="aboutMe" name="aboutMe" rows="4" required></textarea>
+            <div class="invalid-feedback">กรุณากรอกข้อมูลเกี่ยวกับตัวเอง</div>
+        </div>
+
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">ลงทะเบียน</button>
+        </div>
+    </form>
+
+    <!-- Bootstrap & JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var forms = document.querySelectorAll(".needs-validation");
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener("submit", function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add("was-validated");
+                }, false);
+            });
+        });
+    </script>
 </body>
 </html>
